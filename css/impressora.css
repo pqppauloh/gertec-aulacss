@@ -1,0 +1,50 @@
+
+/* 
+    Created on : 11/11/2015, 21:34:29
+    Author     : Paulo H
+    CSS para impressão
+*/
+*{margin:0; padding: 0;}/*reset*/
+body{
+    background-color: #272822;
+    color: rgb(230,219,116);
+}
+h1{color: rgb(253,151,31);}
+header{
+    background-color: rgb(248,248,248);
+    color: #272822;
+    text-align: center;
+    padding: 40px 0;/*Centraliza na vertical*/
+    position: fixed;
+    width: 100%; /*responsivo*/
+    top: 0;
+}
+
+section{
+    
+    padding: 20px;
+    background-color: deepskyblue;
+    position: relative;
+    z-index: -2;
+}
+
+footer{
+    width: 140px; 
+    padding: 75px 0;
+    padding-left: 10px;
+    background-color: whitesmoke;
+    color:#272822;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10px; right: 10px;
+    box-shadow: 0 0 25px #272822 inset;
+}
+
+/*Classe*/
+.qdo{
+    border: 1px solid black;
+    width: 100px; height: 100px;
+    position: absolute;
+    margin: 20px;
+}
+
